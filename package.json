@@ -1,0 +1,27 @@
+{
+  "name": "torrarithmetic",
+  "version": "1.0.0",
+  "description": "Operaciones Ariméticas Básicas",
+  "main": "dist/src/torrarithmetic.js",
+  "scripts": {
+    "build": "babel src/torrarithmetic.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:cristiantorr/torrarithmetic.git"
+  },
+  "keywords": [
+    "Operaciones",
+    "matematicas",
+    "javascript"
+  ],
+  "author": "Cristian Torres <ps4cristiantorr@gmail.com> (https://www.facebook.com/ps4cristiantorr)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
